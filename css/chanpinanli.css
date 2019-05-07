@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+}
+nav{
+	width: 90%;
+	margin: auto;
+	display: flex;
+}
+.logo{
+	width: 50%;
+	padding: 20px;
+}
+.daohang>ul>li{
+	cursor: pointer;
+	padding: 18px;
+	float: left;
+	list-style: none;
+	font-size: 17px;
+}
+.daohang>ul>li>a{
+	color: gray;
+	text-decoration: none;
+}
+.active{
+	border-bottom: 1px solid cadetblue;
+}
+.chanpin{
+	width: 100%;
+	height: 900px;
+	position: relative;
+}
+.chanpin>p{
+	text-align: center;
+	padding-top: 10px;
+}
+.chanpin>ul{
+	width: 70%;
+	margin: auto;
+	display: flex;
+	margin-top: 50px;
+}
+.chanpin>ul>li{
+	list-style: none;
+	
+}
+.chanpin>ul>li:nth-child(n+2){
+	margin-left: 120px;
+}
+.chanpin>ul>li>img{
+	width: 220px;
+	height: 170px;
+}
+.chanpin>ul>li:hover{
+	box-shadow: 0px 0px 10px gray;
+}
+.chanpin>ul>li>p>a{
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	background: #4C4C4C;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+footer{
+	width: 100%;
+	height: 250px;
+	background: black;
+	color: white;
+	padding-top: 30px;
+}
+.foot{
+	display: flex;
+}
+.foot>ul{
+	margin-left: 40px;
+}
+.foot>ul>li{
+	list-style: none;
+}

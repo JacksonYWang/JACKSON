@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+}
+nav{
+	width: 90%;
+	margin: auto;
+	display: flex;
+}
+.logo{
+	width: 50%;
+	padding: 20px;
+}
+.daohang>ul>li{
+	cursor: pointer;
+	padding: 18px;
+	float: left;
+	list-style: none;
+	font-size: 17px;
+}
+.daohang>ul>li>a{
+	color: gray;
+	text-decoration: none;
+}
+.active{
+	border-bottom: 1px solid cadetblue;
+}
+.one{
+	width: 100%;
+	height: 400px;
+	color: black;
+	position: relative;
+}
+.one-1{
+	width: 600px;
+	height: 200px;
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+.one-1>b{
+	font-size: 20px;
+}
+.one-1>p{
+	font-size: 22px;
+	margin-top: 10px;
+}
+.one-2{
+	position: absolute;
+	top: 100px;
+	right: 0px;
+}
+.one-tu{
+	position: absolute;
+	top: 70px;
+	right: 150px;
+	animation: tu 5s infinite linear;
+}
+@keyframes tu{
+	0%{transform: translateY(0px);}
+	33%{transform: translateY(30px);}
+	66%{transform: translateY(-30px);}
+	99%{transform: translateY(0px);}
+}
+.one-tu>img{
+	width: 250px;
+	height: 250px;
+}
+a{
+	text-decoration: none;
+}
+
+footer{
+	width: 100%;
+	height: 250px;
+	background: black;
+	color: white;
+	padding-top: 30px;
+}
+.foot{
+	display: flex;
+}
+.foot>ul{
+	margin-left: 40px;
+}
+.foot>ul>li{
+	list-style: none;
+}

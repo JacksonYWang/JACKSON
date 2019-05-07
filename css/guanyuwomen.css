@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+}
+nav{
+	width: 90%;
+	margin: auto;
+	display: flex;
+}
+.logo{
+	width: 50%;
+	padding: 20px;
+}
+.daohang>ul>li{
+	cursor: pointer;
+	padding: 18px;
+	float: left;
+	list-style: none;
+	font-size: 17px;
+}
+.daohang>ul>li>a{
+	color: gray;
+	text-decoration: none;
+}
+.active{
+	border-bottom: 1px solid cadetblue;
+}
+section{
+	width: 100%;
+	height: 700px;
+	background: #169BC6;
+}
+.guanyuwomen{
+	width: 70%;
+	margin: auto;
+	color: white;
+}
+.guanyu-a{
+	padding-top: 70px;
+	font-size: 40px;
+	text-align: center;
+}
+.guanyu-b{
+	width: 85%;
+	margin: auto;
+	font-size: 25px;
+	margin-top: 100px;
+}
+.guanyu-tu{
+	width: 80%;
+	height: 300px;
+	margin: auto;
+}
+.guanyu-tu>ul{
+	margin-top: 100px;
+}
+.guanyu-tu>ul>li{
+	position: relative;
+	list-style: none;
+	float: left;
+}
+.guanyu-tu>ul>li:nth-child(n+2){
+	margin-left: 100px;
+}
+.guanyu-tu>ul>li>span{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+footer{
+	width: 100%;
+	height: 250px;
+	background: black;
+	color: white;
+	padding-top: 30px;
+}
+.foot{
+	display: flex;
+}
+.foot>ul{
+	margin-left: 40px;
+}
+.foot>ul>li{
+	list-style: none;
+}
+

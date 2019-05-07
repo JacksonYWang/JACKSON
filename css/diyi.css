@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	
+}
+nav{
+	width: 90%;
+	margin: auto;
+	display: flex;
+}
+.logo{
+	width: 50%;
+	padding: 20px;
+}
+.daohang>ul>li{
+	cursor: pointer;
+	padding: 18px;
+	float: left;
+	list-style: none;
+	font-size: 17px;
+}
+.daohang>ul>li>a{
+	color: black;
+	text-decoration: none;
+}
+.active{
+	border-bottom: 1px solid cadetblue;
+}
+section{
+	width: 100%;
+}
+.lunbo>ul>li>img{
+	height: 450px;
+	width:100%;
+}
+.lunbo{
+	overflow: hidden;
+}
+.lunbo>ul{
+	width: 400%;
+	position: relative;
+}
+.lunbo>ul>li{
+	width: 25%;
+	list-style: none;
+	float: left;
+}
+.zhuying{
+	width: 25%;
+	margin: auto;
+}
+.zhuying>p{
+	width: 300px;
+	padding: 5px;
+	text-align: center;
+}
+.zhuying-neirong{
+	height: 500px;
+}
+.zhuying-neirong>ul{
+	width: 90%;
+	margin: auto;
+}
+.zhuying-neirong>ul>li{
+	float: left;
+	list-style: none;
+	width: 50%;
+	text-align: center;
+	margin-top: 50px;
+	position: relative;
+}
+.zhuying-neirong>ul>li>img:hover{
+	box-shadow: 0px 0px 2px gray;
+}
+.zhuying-neirong>ul>li>div{
+	position: absolute;
+	top: 117px;
+	left: 255px;
+}
+.zhuying-neirong>ul>li>img{
+	width: 180px;
+	height: 180px;
+	position: relative;
+}
+.jiejuefangan{
+	width: 100%;
+	height: 450px;
+	background: black;
+	color: white;
+}
+.jiejuefangan>p{
+	text-align: center;
+	padding-top: 10px;
+}
+.jiejuefangan>ul{
+	margin-top: 120px;
+	display: flex;
+}
+.jiejuefangan>ul>li{
+	width: 25%;
+	list-style: none;
+}
+.jiejuefangan>ul>li>a>img{
+	width: 100%;
+	height: 200px;
+}
+.chanpin{
+	width: 100%;
+	height: 450px;
+	background: #F2F2EE;
+	position: relative;
+}
+.chanpin>p{
+	text-align: center;
+	padding-top: 10px;
+}
+.lunbochanpin{
+	width: 800px;
+	overflow: hidden;
+	margin-left: 250px;
+}
+.lunbochanpin>ul{
+	width: 200%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	margin-top: 100px;
+	/*margin-left: 250px;*/
+}
+.lunbochanpin>ul>li{
+	width: 800px;
+	list-style: none;
+	display: flex;
+}
+.lunbochanpin>ul>li>div{
+	margin-left: 50px;
+}
+.lunbochanpin>ul>li>div>img{
+	width: 200px;
+	height: 200px;
+}
+.left{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: gray;
+	position: absolute;
+	top: 264px;
+}
+.right{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: gray;
+	position: absolute;
+	top: 264px;
+	right: 213px;
+}
+footer{
+	width: 100%;
+	height: 250px;
+	background: black;
+	color: white;
+	padding-top: 30px;
+}
+.foot{
+	display: flex;
+}
+.foot>ul{
+	margin-left: 40px;
+}
+.foot>ul>li{
+	list-style: none;
+}
